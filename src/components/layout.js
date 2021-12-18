@@ -23,7 +23,7 @@ export default function Layout({ pageTitle, children }) {
   return (
     <div className={container}>
       <title>
-        {data.site.siteMetadata.title} - {pageTitle}
+        {data.site.siteMetadata.title} | {pageTitle}
       </title>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       {/* Navbar */}
